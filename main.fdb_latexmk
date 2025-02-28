@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1740740390.35394 "main.aux" "main.bbl" "main" 1740740393.30409 0
+["bibtex main"] 1740740390.35394 "main.aux" "main.bbl" "main" 1740740593.95693 0
   "./biblio.bib" 1740736892.86376 968 75be53228b760db3e5e4781692e01378 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "main.aux" 1740740392.54292 1506 1aa7dc53f15e50baf0c6aab702d9618c "pdflatex"
+  "main.aux" 1740740593.20784 1506 1aa7dc53f15e50baf0c6aab702d9618c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1740740390.63831 "/Users/matteo/Main/guida-root/main.tex" "main.pdf" "main" 1740740393.30443 0
-  "/Users/matteo/Main/guida-root/main.tex" 1740740387.13833 2976 73c388050903c572be373f58879374c7 ""
+["pdflatex"] 1740740591.32706 "/Users/matteo/Main/guida-root/main.tex" "main.pdf" "main" 1740740593.95723 0
+  "/Users/matteo/Main/guida-root/main.tex" 1740740590.98946 2988 386a76a87cfea4140ed6bc298cdd71e7 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1254269338 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -195,11 +195,11 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1731751463 5475505 9858817de6e728d163c121232b884c29 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1731751792 3342965 492aee94941c8dcd653ad883b249721a ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main.aux" 1740740392.54292 1506 1aa7dc53f15e50baf0c6aab702d9618c "pdflatex"
+  "main.aux" 1740740593.20784 1506 1aa7dc53f15e50baf0c6aab702d9618c "pdflatex"
   "main.bbl" 1740740390.62955 49 0eba253fc001332e731e8aba3f23127b "bibtex main"
-  "main.out" 1740740392.54446 1420 550738d210d8360d684b56f033f9cce5 "pdflatex"
-  "main.tex" 1740740387.13833 2976 73c388050903c572be373f58879374c7 ""
-  "main.toc" 1740740392.54492 686 c06667bec25519e840cfec40c24b2413 "pdflatex"
+  "main.out" 1740740593.20949 1420 550738d210d8360d684b56f033f9cce5 "pdflatex"
+  "main.tex" 1740740590.98946 2988 386a76a87cfea4140ed6bc298cdd71e7 ""
+  "main.toc" 1740740593.20998 686 c06667bec25519e840cfec40c24b2413 "pdflatex"
   "sections/abstract.tex" 1740736724.56141 780 e294f776a80e70523287c8cf49dda107 ""
   "sections/build.tex" 1740695448.17134 13 877ba462db1e778e6a338ca424e1e607 ""
   "sections/pre-comp.tex" 1740695436.50679 6359 98729d22b12838404c4a4446323be545 ""

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.16)  28 FEB 2025 11:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.16)  28 FEB 2025 12:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -775,8 +775,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \newpage
-              [1
+l.72 \clearpage
+                [1
 
 ] (./sections/prelim.tex) (./sections/pre-comp.tex
 
@@ -787,7 +787,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
+[2
+
+]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
