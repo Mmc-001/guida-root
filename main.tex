@@ -1,0 +1,59 @@
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{geometry}
+\usepackage{changepage}
+\usepackage{subcaption}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{comment}
+
+%opening
+\title{\textbf{Guida all'installazione di ROOT in ambiente macOS}}
+\author{Matteo Marchisio Caprioglio}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+	\input{sections/abstract.tex}
+\end{abstract}
+
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{Controlli e setup preliminari}
+\label{sec:preliminari}
+\input{sections/prelim}
+
+\section{Installazione da distribuzione pre compilata}
+\label{sec:pre-comp}
+\input{sections/pre-comp}
+
+\section{Build locale da codice sorgente}
+\label{sec:build}
+\input{sections/build}
+
+
+\newpage
+
+\begin{comment}
+\section{Documentazione}
+\begin{itemize}
+	\item \hyperref{https://root.cern}{}{}{Sito di ROOT - documentazione completa}
+	\item \hyperref{https://root.cern/install/all_releases/}{}{}{Releases di ROOT}
+	\item \hyperref{https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/}{}{}{Come cambiare la shell di default di macOS}
+	\item \hyperref{https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Controlling-the-Prompt}{}{}{Manuale comandi shell}
+	\item \hyperref{https://wiki.gentoo.org/wiki/Vim/Guide}{}{}{Guida Vim}
+\end{itemize}
+\end{comment}
+
+\bibliographystyle{plain}
+\bibliography{biblio}
+
+
+
+\end{document}
