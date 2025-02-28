@@ -1,16 +1,62 @@
-\documentclass[]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[italian]{babel}
-\usepackage{geometry}
-\usepackage{changepage}
-\usepackage{subcaption}
-\usepackage{lipsum}
-\usepackage{hyperref}
-\usepackage{comment}
+\documentclass[12pt,a4paper]{report}
 
-%opening
-\title{\textbf{Guida all'installazione di ROOT in ambiente macOS}}
+% --- Encoding, language, and fonts ---
+\usepackage[utf8]{inputenc}     % for UTF-8 input (if using pdfLaTeX)
+\usepackage[T1]{fontenc}        % better font encoding
+\usepackage[italian]{babel}     % set language to Italian (or adjust accordingly)
+\usepackage{lmodern}            % improved fonts
+
+% --- Page layout and micro-typography ---
+\usepackage[margin=2.5cm]{geometry}  % adjust margins for readability
+\usepackage{microtype}               % improves spacing and overall typography
+
+% --- Mathematics and symbols ---
+\usepackage{amsmath, amssymb, amsthm}
+
+% --- Graphics and color ---
+\usepackage{graphicx}          % for including images
+\usepackage{xcolor}            % for colored text, boxes, etc.
+
+% --- Hyperlinks and cross-referencing ---
+\usepackage{hyperref}          % clickable links; configure as needed
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    pdftitle={Guida all'installazione di ROOT in ambiente macOS},
+    pdfauthor={Matteo Marchisio Caprioglio}
+}
+
+% --- Code listings (for terminal commands and code snippets) ---
+\usepackage{listings}
+\lstset{
+    basicstyle=\small\ttfamily,
+    numbers=left,
+    numberstyle=\tiny,
+    frame=single,
+    breaklines=true,
+    captionpos=b,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    stringstyle=\color{red}
+}
+
+% --- Additional useful packages ---
+\usepackage{enumitem}          % for customized lists
+\usepackage{tcolorbox}         % for highlighting important notes or warnings
+\usepackage{fancyhdr}          % for header and footer customization
+
+% --- Set up fancy headers ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Guida ROOT}
+\fancyhead[R]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+% --- Document information ---
+\title{Guida all'installazione di ROOT in ambiente macOS}
 \author{Matteo Marchisio Caprioglio}
+\date{\today}
 
 \begin{document}
 
@@ -23,6 +69,8 @@
 \newpage
 
 \tableofcontents
+\clearpage
+
 \newpage
 
 \section{Controlli e setup preliminari}

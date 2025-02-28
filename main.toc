@@ -1,9 +1,9 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\contentsline {section}{\numberline {1}Controlli e setup preliminari}{3}{section.1}%
-\contentsline {section}{\numberline {2}Installazione da distribuzione pre compilata}{3}{section.2}%
-\contentsline {section}{\numberline {3}Controlli preliminari}{3}{section.3}%
-\contentsline {section}{\numberline {4}Download e installazione di ROOT}{3}{section.4}%
-\contentsline {section}{\numberline {5}Setup}{4}{section.5}%
-\contentsline {section}{\numberline {6}Eseguire macro (file in formato .C) con ROOT}{6}{section.6}%
-\contentsline {section}{\numberline {7}Build locale da codice sorgente}{6}{section.7}%
+\contentsline {section}{\numberline {0.1}Controlli e setup preliminari}{2}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Installazione da distribuzione pre compilata}{2}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Controlli preliminari}{2}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Download e installazione di ROOT}{2}{section.0.4}%
+\contentsline {section}{\numberline {0.5}Setup}{3}{section.0.5}%
+\contentsline {section}{\numberline {0.6}Eseguire macro (file in formato .C) con ROOT}{5}{section.0.6}%
+\contentsline {section}{\numberline {0.7}Build locale da codice sorgente}{5}{section.0.7}%
