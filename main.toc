@@ -1,10 +1,12 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\contentsline {section}{\numberline {1}Installazione tramite package manager HomeBrew}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Installazione di HomeBrew}{4}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Installazione da distribuzione pre compilata}{4}{section.2}%
-\contentsline {section}{\numberline {3}Controlli preliminari}{4}{section.3}%
-\contentsline {section}{\numberline {4}Download e installazione di ROOT}{4}{section.4}%
-\contentsline {section}{\numberline {5}Eseguire macro (file in formato .C) con ROOT}{5}{section.5}%
-\contentsline {section}{\numberline {6}Build locale da codice sorgente}{6}{section.6}%
-\contentsline {section}{\numberline {7}Setup}{6}{section.7}%
+\contentsline {section}{\numberline {1}Controlli preliminari e terminologia}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Controlli preliminari}{4}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Installazione tramite package manager HomeBrew}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Installazione di HomeBrew}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Installazione da distribuzione pre compilata}{4}{section.3}%
+\contentsline {section}{\numberline {4}Controlli preliminari}{4}{section.4}%
+\contentsline {section}{\numberline {5}Download e installazione di ROOT}{5}{section.5}%
+\contentsline {section}{\numberline {6}Eseguire macro (file in formato .C) con ROOT}{5}{section.6}%
+\contentsline {section}{\numberline {7}Build locale da codice sorgente}{6}{section.7}%
+\contentsline {section}{\numberline {8}Setup}{6}{section.8}%

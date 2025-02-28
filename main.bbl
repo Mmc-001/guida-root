@@ -1,3 +1,11 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{root_required_dependecies}
+Dependencies necessarie all'installazione di root.
+\newblock \url{https://root.cern/install/dependencies/#macos}.
+
+\bibitem{brew_page}
+Homebrew homepage.
+\newblock \url{https://brew.sh}.
 
 \end{thebibliography}
