@@ -1,6 +1,11 @@
 Questa procedura è la più semplice delle tre proposte in questa guida, e prevede l'utilizzo del package manager \texttt{HomeBrew} per installare una distribuzione pre-compilata di ROOT (quasi) pronta all'uso.\\
 
-\subsection{Installazione di HomeBrew}
-\label{brew-install}
+\subsubsection{Installazione di HomeBrew}
 HomeBrew è un package manager gratuito per macOS che permette di installare facilmente software open source di vario tipo. \\
-Per installarlo, seguire una delle procedure descritte sul sito ufficiale di Homebrew \cite{brew_page}.\\
+Per installarlo, seguire una delle procedure descritte sul sito ufficiale di Homebrew \cite{brew_page} (si consiglia quella che prevede il download di un file formato .pkg direttamente da GitHub, ma anche quella che sfrutta il terminale funziona).\\
+
+\subsubsection{Download ROOT con HomeBrew}
+Una volta installato HomeBrew, aprire il Terminale ed eseguire il comando
+\begin{verbatim}
+brew install root
+\end{verbatim}
