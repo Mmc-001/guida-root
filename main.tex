@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{report}
+\documentclass[12pt,a4paper]{article}
 
 % --- Encoding, language, and fonts ---
 \usepackage[utf8]{inputenc}     % for UTF-8 input (if using pdfLaTeX)
@@ -20,9 +20,9 @@
 % --- Hyperlinks and cross-referencing ---
 \usepackage{hyperref}          % clickable links; configure as needed
 \hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    urlcolor=blue,
+    %colorlinks=true,
+    %linkcolor=blue,
+    %urlcolor=blue,
     pdftitle={Guida all'installazione di ROOT in ambiente macOS},
     pdfauthor={Matteo Marchisio Caprioglio}
 }
@@ -38,7 +38,9 @@
     captionpos=b,
     keywordstyle=\color{blue},
     commentstyle=\color{gray},
-    stringstyle=\color{red}
+    stringstyle=\color{red},
+    columns=fixed,    % ensures fixed spacing (avoids extra invisible characters)
+    upquote=true      % ensures that quotes are rendered as plain text
 }
 
 % --- Additional useful packages ---
@@ -50,7 +52,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{Guida ROOT}
-\fancyhead[R]{\leftmark}
+%\fancyhead[R]{\leftmark}
 \fancyfoot[C]{\thepage}
 
 % --- Document information ---
@@ -61,6 +63,7 @@
 \begin{document}
 
 \maketitle
+\newpage
 
 \begin{abstract}
 	\input{sections/abstract.tex}
@@ -69,13 +72,12 @@
 \newpage
 
 \tableofcontents
-\clearpage
 
 \newpage
 
-\section{Controlli e setup preliminari}
-\label{sec:preliminari}
-\input{sections/prelim}
+\section{Installazione tramite package manager HomeBrew}
+\label{brew}
+\input{sections/brew.tex}
 
 \section{Installazione da distribuzione pre compilata}
 \label{sec:pre-comp}
@@ -84,6 +86,10 @@
 \section{Build locale da codice sorgente}
 \label{sec:build}
 \input{sections/build}
+
+\section{Setup}
+\label{sec:setup}
+\input{sections/root-setup.tex}
 
 
 \newpage

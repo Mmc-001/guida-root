@@ -35,50 +35,6 @@
 	e premendo INVIO: l'estrazione avviene con la creazione automatica di una cartella chiamata semplicemente \texttt{root} (verificarne la presenza con il comando \texttt{ls})
 \end{itemize}
 
-\section{Setup}
-Per avviare ROOT da terminale non è sufficiente scrivere semplicemente \texttt{root} e premere INVIO, perchè va "pescato" il suo funzionamento dalla cartella \texttt{root} creata in fase di installazione. I seguenti passaggi permettono di modificare i file di configurazione del Terminale, in modo da non dover rieseguire la stessa stringa di codice ogni volta che si riapre il Terminale prima di eseguire ROOT.
-\begin{itemize}
-	\item Aprire col Finder la cartella utente, selezionare col tasto destro la cartella \texttt{root} creata in fase di installazione e cliccare \texttt{Ottieni informazioni}: alla dicitura "Situato in" compare il percorso della cartella, copiarlo cliccandoci su col tasto destro (\texttt{Copia come percorso})
-	\item Aprire il Terminale verificare il tipo di shell utilizzato, con il comando
-	\begin{verbatim}
-		echo $0
-	\end{verbatim}
-	Lo shell di default è \texttt{zsh}, ma è possibile utilizzare anche \texttt{bash} in modo equivalente (a \hyperref{https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/}{}{}{questo link} è spiegata la procedura per cambiare tra uno e l'altro: ai fini dell'utilizzo di ROOT \texttt{zsh} funziona, ed è pertanto sconsigliato il cambio di shell agli utenti meno esperti)
-	\item Se lo shell in uso è \texttt{zsh}, digitare nel terminale il comando
-	\begin{verbatim}
-		sudo vim .zshrc
-	\end{verbatim}
-	in questo modo si apre (o si crea se non esiste) con i privilegi da amministratore (\texttt{sudo}) il file di configurazione nascosto \texttt{.zshrc} conl'editor di testo Vim
-	\item Se lo shell in uso è \texttt{bash}, in modo analogo digitare nel terminale il comando
-	\begin{verbatim}
-		sudo vim .bashrc
-	\end{verbatim}
-	oppure
-	\begin{verbatim}
-		sudo vim .bash_profile
-	\end{verbatim}
-	\item Una volta aperto con Vim il file di configurazione nascosto con la procedura appena descritta, cliccare I per portarsi nella modalità inserimento di Vim (compare la scritta INSERT al fondo dello schermo), poi portarsi con le frecce al fondo del file e incollare la stringa
-	\begin{verbatim}
-		source <percorso_root>/root/bin/thisroot.sh
-	\end{verbatim}
-	in cui al posto di \texttt{<percorso\_root>} va incollato il percorso della cartella \texttt{root}, trovato al primo passaggio di questa lista
-	\item Uscire dalla modalità inserimento di Vim cliccando ESC, poi salvare il file digitando il comando \texttt{:wq} e premendo INVIO
-	\newpage
-	\item Se tutto ha funzionato correttamente, dopo aver chiuso e riaperto il terminale se si digita il comando \texttt{root} dovrebbe avviarsi ROOT con un output simile a
-	\begin{verbatim}
-		 ------------------------------------------------------------------
-		| Welcome to ROOT 6.28/06                        https://root.cern |
-		| (c) 1995-2023, The ROOT Team; conception: R. Brun, F. Rademakers |
-		| Built for macosx64 on Nov 25 2023, 11:48:00                      |
-		| From heads/latest-stable@7745d36d                                |
-		| With Apple clang version 15.0.0 (clang-1500.0.40.1)              |
-		| Try '.help'/'.?', '.demo', '.license', '.credits', '.quit'/'.q'  |
-		 ------------------------------------------------------------------
-		
-		root [0]
-	\end{verbatim}
-\end{itemize}
-
 \section{Eseguire macro (file in formato .C) con ROOT}
 \begin{itemize}
 	\item Aprire il terminale e portarsi nella cartella in cui sono salvate le macro .C che si vogliono eseguire, digitando il comando
